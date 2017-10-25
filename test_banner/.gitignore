@@ -1,0 +1,7 @@
+composer.lock
+vendor
+data/cache
+data/DoctrineORMModule
+/.metadata/
+
+/.settings

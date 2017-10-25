@@ -1,0 +1,281 @@
+{
+    "version": "1.0",
+    "name": "zendframework/skeleton-application",
+    "config": {
+        "bootstrap-file": "vendor/autoload.php"
+    },
+    "packages": {
+        "behat/behat": {
+            "install-path": "vendor/behat/behat",
+            "installer": "composer"
+        },
+        "behat/gherkin": {
+            "install-path": "vendor/behat/gherkin",
+            "installer": "composer"
+        },
+        "behat/mink": {
+            "install-path": "vendor/behat/mink",
+            "installer": "composer"
+        },
+        "behat/mink-browserkit-driver": {
+            "install-path": "vendor/behat/mink-browserkit-driver",
+            "installer": "composer"
+        },
+        "behat/mink-goutte-driver": {
+            "install-path": "vendor/behat/mink-goutte-driver",
+            "installer": "composer"
+        },
+        "behat/mink-selenium2-driver": {
+            "install-path": "vendor/behat/mink-selenium2-driver",
+            "installer": "composer"
+        },
+        "behat/transliterator": {
+            "install-path": "vendor/behat/transliterator",
+            "installer": "composer"
+        },
+        "clue/stream-filter": {
+            "install-path": "vendor/clue/stream-filter",
+            "installer": "composer"
+        },
+        "container-interop/container-interop": {
+            "install-path": "vendor/container-interop/container-interop",
+            "installer": "composer"
+        },
+        "doctrine/annotations": {
+            "install-path": "vendor/doctrine/annotations",
+            "installer": "composer"
+        },
+        "doctrine/cache": {
+            "install-path": "vendor/doctrine/cache",
+            "installer": "composer"
+        },
+        "doctrine/collections": {
+            "install-path": "vendor/doctrine/collections",
+            "installer": "composer"
+        },
+        "doctrine/common": {
+            "install-path": "vendor/doctrine/common",
+            "installer": "composer"
+        },
+        "doctrine/dbal": {
+            "install-path": "vendor/doctrine/dbal",
+            "installer": "composer"
+        },
+        "doctrine/doctrine-module": {
+            "install-path": "vendor/doctrine/doctrine-module",
+            "installer": "composer"
+        },
+        "doctrine/doctrine-orm-module": {
+            "install-path": "vendor/doctrine/doctrine-orm-module",
+            "installer": "composer"
+        },
+        "doctrine/inflector": {
+            "install-path": "vendor/doctrine/inflector",
+            "installer": "composer"
+        },
+        "doctrine/instantiator": {
+            "install-path": "vendor/doctrine/instantiator",
+            "installer": "composer"
+        },
+        "doctrine/lexer": {
+            "install-path": "vendor/doctrine/lexer",
+            "installer": "composer"
+        },
+        "doctrine/orm": {
+            "install-path": "vendor/doctrine/orm",
+            "installer": "composer"
+        },
+        "fabpot/goutte": {
+            "install-path": "vendor/fabpot/goutte",
+            "installer": "composer"
+        },
+        "facebook/graph-sdk": {
+            "install-path": "vendor/facebook/graph-sdk",
+            "installer": "composer"
+        },
+        "guzzlehttp/guzzle": {
+            "install-path": "vendor/guzzlehttp/guzzle",
+            "installer": "composer"
+        },
+        "guzzlehttp/promises": {
+            "install-path": "vendor/guzzlehttp/promises",
+            "installer": "composer"
+        },
+        "guzzlehttp/psr7": {
+            "install-path": "vendor/guzzlehttp/psr7",
+            "installer": "composer"
+        },
+        "happyr/linkedin-api-client": {
+            "install-path": "vendor/happyr/linkedin-api-client",
+            "installer": "composer"
+        },
+        "instaclick/php-webdriver": {
+            "install-path": "vendor/instaclick/php-webdriver",
+            "installer": "composer"
+        },
+        "justinrainbow/json-schema": {
+            "install-path": "vendor/justinrainbow/json-schema",
+            "installer": "composer"
+        },
+        "monolog/monolog": {
+            "install-path": "vendor/monolog/monolog",
+            "installer": "composer"
+        },
+        "paragonie/random_compat": {
+            "install-path": "vendor/paragonie/random_compat",
+            "installer": "composer"
+        },
+        "php-http/discovery": {
+            "install-path": "vendor/php-http/discovery",
+            "installer": "composer"
+        },
+        "php-http/guzzle6-adapter": {
+            "install-path": "vendor/php-http/guzzle6-adapter",
+            "installer": "composer"
+        },
+        "php-http/httplug": {
+            "install-path": "vendor/php-http/httplug",
+            "installer": "composer"
+        },
+        "php-http/message": {
+            "install-path": "vendor/php-http/message",
+            "installer": "composer"
+        },
+        "php-http/message-factory": {
+            "install-path": "vendor/php-http/message-factory",
+            "installer": "composer"
+        },
+        "php-http/promise": {
+            "install-path": "vendor/php-http/promise",
+            "installer": "composer"
+        },
+        "psr/container": {
+            "install-path": "vendor/psr/container",
+            "installer": "composer"
+        },
+        "psr/http-message": {
+            "install-path": "vendor/psr/http-message",
+            "installer": "composer"
+        },
+        "psr/log": {
+            "install-path": "vendor/psr/log",
+            "installer": "composer"
+        },
+        "puli/composer-plugin": {
+            "install-path": "vendor/puli/composer-plugin",
+            "installer": "composer"
+        },
+        "puli/discovery": {
+            "install-path": "vendor/puli/discovery",
+            "installer": "composer"
+        },
+        "puli/repository": {
+            "install-path": "vendor/puli/repository",
+            "installer": "composer"
+        },
+        "puli/url-generator": {
+            "install-path": "vendor/puli/url-generator",
+            "installer": "composer"
+        },
+        "ramsey/uuid": {
+            "install-path": "vendor/ramsey/uuid",
+            "installer": "composer"
+        },
+        "seld/jsonlint": {
+            "install-path": "vendor/seld/jsonlint",
+            "installer": "composer"
+        },
+        "symfony/browser-kit": {
+            "install-path": "vendor/symfony/browser-kit",
+            "installer": "composer"
+        },
+        "symfony/class-loader": {
+            "install-path": "vendor/symfony/class-loader",
+            "installer": "composer"
+        },
+        "symfony/config": {
+            "install-path": "vendor/symfony/config",
+            "installer": "composer"
+        },
+        "symfony/console": {
+            "install-path": "vendor/symfony/console",
+            "installer": "composer"
+        },
+        "symfony/css-selector": {
+            "install-path": "vendor/symfony/css-selector",
+            "installer": "composer"
+        },
+        "symfony/debug": {
+            "install-path": "vendor/symfony/debug",
+            "installer": "composer"
+        },
+        "symfony/dependency-injection": {
+            "install-path": "vendor/symfony/dependency-injection",
+            "installer": "composer"
+        },
+        "symfony/dom-crawler": {
+            "install-path": "vendor/symfony/dom-crawler",
+            "installer": "composer"
+        },
+        "symfony/event-dispatcher": {
+            "install-path": "vendor/symfony/event-dispatcher",
+            "installer": "composer"
+        },
+        "symfony/filesystem": {
+            "install-path": "vendor/symfony/filesystem",
+            "installer": "composer"
+        },
+        "symfony/polyfill-mbstring": {
+            "install-path": "vendor/symfony/polyfill-mbstring",
+            "installer": "composer"
+        },
+        "symfony/process": {
+            "install-path": "vendor/symfony/process",
+            "installer": "composer"
+        },
+        "symfony/translation": {
+            "install-path": "vendor/symfony/translation",
+            "installer": "composer"
+        },
+        "symfony/yaml": {
+            "install-path": "vendor/symfony/yaml",
+            "installer": "composer"
+        },
+        "webmozart/assert": {
+            "install-path": "vendor/webmozart/assert",
+            "installer": "composer"
+        },
+        "webmozart/expression": {
+            "install-path": "vendor/webmozart/expression",
+            "installer": "composer"
+        },
+        "webmozart/glob": {
+            "install-path": "vendor/webmozart/glob",
+            "installer": "composer"
+        },
+        "webmozart/json": {
+            "install-path": "vendor/webmozart/json",
+            "installer": "composer"
+        },
+        "webmozart/path-util": {
+            "install-path": "vendor/webmozart/path-util",
+            "installer": "composer"
+        },
+        "zendframework/zenddiagnostics": {
+            "install-path": "vendor/zendframework/zenddiagnostics",
+            "installer": "composer"
+        },
+        "zendframework/zendframework": {
+            "install-path": "vendor/zendframework/zendframework",
+            "installer": "composer"
+        },
+        "zendframework/zendxml": {
+            "install-path": "vendor/zendframework/zendxml",
+            "installer": "composer"
+        },
+        "zendframework/zftool": {
+            "install-path": "vendor/zendframework/zftool",
+            "installer": "composer"
+        }
+    }
+}
